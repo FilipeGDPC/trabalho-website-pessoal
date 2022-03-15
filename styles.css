@@ -11,15 +11,18 @@
 
 body {
   font-family: "Roboto Slab", serif;
-  background: var(--gradientedefundo);
-  color: #fff;
-  width: 50%;
+  background: #1f4037;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: rgb(255, 255, 255);
   margin: auto;
 }
 
 h1 {
   font-family: "Bungee Shade", cursive;
   background-color: black;
+  margin-top: 0;
 }
 
 h1,
@@ -31,20 +34,34 @@ img {
   margin: 5px auto;
   width: 50%;
   display: block;
+  max-width: 400px;
+  border-radius: 16px;
 }
 
-button,
-a {
-  margin: 0 auto;
+li a, div a {
+  margin: 5px;
   display: block;
-  width: 30%;
   border: none;
   padding: 22px;
-  background-color: #fff;
+  background-color: rgb(56, 206, 76);
   border-radius: 10px;
-  font-size: large;
-  color: black;
+  color: rgb(255, 255, 255);
 }
+.social {
+  display: flex;
+  justify-content: center;
+
+}
+.social a {
+  border-radius: 50%;
+  width: 75px;
+    height: 75px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
 button:hover,
 a:hover {
   opacity: 0.8;
@@ -54,4 +71,14 @@ a:link,
 a:visited {
   text-align: center;
   text-decoration: none;
+}
+
+section ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+
+}
+p {
+  text-align: center;
 }
