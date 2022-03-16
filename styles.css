@@ -73,7 +73,7 @@ a:visited {
   text-decoration: none;
 }
 
-section ul {
+nav ul {
   display: flex;
   list-style-type: none;
   justify-content: center;
@@ -81,4 +81,15 @@ section ul {
 }
 p {
   text-align: center;
+  
+}
+#top {
+  color: red;
+}
+
+.projetos {
+  font-size: 25px;
+}
+.projetos li{
+  margin: 8px;
 }
