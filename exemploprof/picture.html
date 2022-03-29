@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exemplo de imagem responsiva</title>
+  </head>
+  <body>
+    <h1>Exemplo de imagem responsiva</h1>
+    <p>Mude o tamanho da tela para ver o resultado</p>
+    <picture>
+      <source media="(min-width:1200px)" srcset="a.jpg" />
+      <source media="(min-width:1000px)" srcset="b.jpg" />
+      <img src="c.jpg" alt="Imagens responsivas" style="width: auto" />
+    </picture>
+    <br />
+    <iframe
+      src="https://www.pauloandrade.com"
+      frameborder="0"
+      title="Site do Prof. Paulo"
+      height="400px"
+      >Texto alternativo</iframe
+    >
+    <br />
+    <iframe
+      width="1654"
+      height="800"
+      src="https://www.youtube.com/embed/HwrpoaOFbNQ"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+  </body>
+</html>

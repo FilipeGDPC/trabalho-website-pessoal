@@ -1,0 +1,123 @@
+<!-- Desenvolvido por Paulo Andrade -->
+<!-- 25/03/2022                     -->
+<!-- www.pauloandrade.com           -->
+<!-- Tabelas                        -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabelas</title>
+  </head>
+  <body>
+    <h1>Como Criar Tabelas</h1>
+    <table border="1">
+      <tr>
+        <td>1</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td><img src="favicon-32x32.png" alt="" /></td>
+        <td>
+          <table border="3">
+            <tr>
+              <td>a</td>
+              <td>b</td>
+            </tr>
+            <tr>
+              <td>c</td>
+              <td>d</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <hr />
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Mês</th>
+          <th>Poupança</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Janeiro</td>
+          <td>R$100</td>
+        </tr>
+        <tr>
+          <td>Fevereiro</td>
+          <td>R$140</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Total do ano:</td>
+          <td>R$240</td>
+        </tr>
+      </tfoot>
+      <caption>
+        Economias do Ano
+      </caption>
+    </table>
+    <hr />
+    <table border="1">
+      <caption>
+        Dados Estatísticos dos Estados
+      </caption>
+      <thead>
+        <tr>
+          <th rowspan="2">Estado</th>
+          <th colspan="2">Dados Estatísticos</th>
+        </tr>
+        <tr>
+          <th>População</th>
+          <th>Área Total</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>São Paulo</td>
+          <td>49.919.049 hab.</td>
+          <td>248.222,346 km<sup>2</sup></td>
+        </tr>
+        <tr>
+          <td>Rio de Janeiro</td>
+          <td>17.366.189 hab.</td>
+          <td>43.780.172 km<sup>2</sup></td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+    <table>
+      <colgroup>
+        <col span="2" style="background-color: lightblue" />
+        <col style="background-color: lightsalmon" />
+      </colgroup>
+      <tr>
+        <th>Código</th>
+        <th>Curso</th>
+        <th>autor</th>
+      </tr>
+      <tr>
+        <td>3476896</td>
+        <td>Html para quem nao sabe nada de Html</td>
+        <td>Paulo Andrade</td>
+      </tr>
+      <tr>
+        <td>1089344</td>
+        <td>Redes de Computadores e a Internet</td>
+        <td>Paulo Andrade</td>
+      </tr>
+    </table>
+  </body>
+</html>
