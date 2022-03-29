@@ -93,3 +93,7 @@ p {
 .projetos li{
   margin: 8px;
 }
+
+form {
+  text-align: center;
+}
