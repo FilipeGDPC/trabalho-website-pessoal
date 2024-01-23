@@ -1,6 +1,6 @@
-### Filipe's First Portfolio Read Me
+## Filipe's First Portfolio Read Me
 
-## Hello and welcome to my initial portfolio! Here, I'm thrilled to present my early steps in the realm of web development, showcasing projects and information through the lens of HTML and CSS. Let's dive into the various sections of this evolving portfolio:
+# Hello and welcome to my initial portfolio! Here, I'm thrilled to present my early steps in the realm of web development, showcasing projects and information through the lens of HTML and CSS. Let's dive into the various sections of this evolving portfolio:
 
 ## HOME
 The homepage serves as a welcoming introduction to my journey in web development.
